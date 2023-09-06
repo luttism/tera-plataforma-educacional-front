@@ -10,6 +10,7 @@ export default function Login() {
         <img src={logo} className="responsive" alt="" />
       </div>
       <div>
+        <h2>Login</h2>
         <label>E-mail:</label>
         <input type="email" className="form-control" />
       </div>
