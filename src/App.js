@@ -1,8 +1,9 @@
 //import Home from "./components/pages/Home";
 //import Login from "./components/pages/Login";
-import RegisterForm from "./components/pages/RegisterForm";
+//import RegisterForm from "./components/pages/RegisterForm";
 //import ForgotPasswordForm from "./components/pages/ForgotPasswordForm";
-import Courses from "./components/pages/Courses";
+//import Courses from "./components/pages/Courses";
+import CoursePage from "./components/pages/CoursePage";
 
 import "./styles/normalize.css";
 import "./styles/fontawesome.min.css";
@@ -14,7 +15,8 @@ function App() {
   //return <Login />;
   //return <RegisterForm />;
   //return <ForgotPasswordForm />;
-  return <Courses />;
+  //return <Courses />;
+  return <CoursePage />;
 }
 
 export default App;

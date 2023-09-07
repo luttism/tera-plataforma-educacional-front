@@ -26,7 +26,7 @@ export default function Courses() {
             <div className="courses__list-item-photo">
               <img src={course1} className="responsive avatar" alt="" />
             </div>
-            <div className="courses__list-item-name">Soma</div>
+            <div className="courses__list-item-name">Adição</div>
           </a>
           <a href="#" className="courses__list-item">
             <div className="courses__list-item-photo">
