@@ -27,7 +27,7 @@ function App() {
     <Route path="/registerform" element={<RegisterForm />} />
     <Route path="/login/forgotpassword" element={<ForgotPasswordForm />} />
     <Route path="/courses" element={<Courses />} />
-    <Route path="/courses/coursepage" element={<CoursePage />} />
+    <Route path="/courses/:courseId" element={<CoursePage />} />
     <Route path="*" element={<h1>Not found!</h1>} />
   </Routes>
   </BrowserRouter>

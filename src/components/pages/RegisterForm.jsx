@@ -3,9 +3,18 @@ import logo from "../../images/logo.png";
 
 export default function RegisterForm() {
   return (
-    <div className="home center">
-      <div className="home__logo">
-        <img src={logo} className="responsive" alt="" />
+    // <div className="home center">
+    //   <div className="home__logo">
+    //     <img src={logo} className="responsive" alt="" />
+    //   </div>
+    <div className="wrapper">
+      <div className="app-header">
+        <div className="app-header__logo">
+          <img src={logo} className="responsive" alt="" />
+        </div>
+        <div className="app-header__menu">
+          <i className="fa fa-bars"></i>
+        </div>
       </div>
       <div>
         <h2>Registrar</h2>
